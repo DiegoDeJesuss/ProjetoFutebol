@@ -45,6 +45,14 @@ header {
     font-size: 16px;
 }
 
+.navbar-toggler{
+    margin-left: 200px; 
+}
+
+
+
+
+
 .home:hover{
     background: #00aeff;
 }
@@ -308,6 +316,19 @@ footer{
 
 @media (max-width: 700px) {
 
+        
+        body{
+            background-color: #00022F;
+        }    
+
+        .Logo-contato{
+            margin-top: 250px;
+        }
+
+        .btn-contato{
+            display: none;
+        }
+      
        
         .img-sobre{
             display: none;
@@ -331,5 +352,13 @@ footer{
             width: 300px;
         }
 
+        textarea{
+            width: 280px;
+        }
+
+        
+
     
     }
+
+
