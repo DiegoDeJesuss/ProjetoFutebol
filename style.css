@@ -39,7 +39,7 @@ header {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 15px;
     transition: all 0.3s ease 0s;
     font-size: 16px;
@@ -60,6 +60,7 @@ header {
 .nome_jogador {
     margin-right: auto;
     width: 50px;
+    
 }
 
 .nav_menu {
