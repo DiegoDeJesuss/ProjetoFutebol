@@ -112,9 +112,10 @@ button:hover {
 }
 
 .Logo img {
-    width: 250px;
-    
+    width: 250px;    
 }
+
+
 
 
 section{
@@ -325,6 +326,10 @@ footer{
         .Logo-contato{
             margin-top: 250px;
         }
+
+        /* .Logo-jogadores{
+            margin-top: 300px;
+        } */
 
         .btn-contato{
             display: none;
