@@ -34,21 +34,26 @@
     <main class="contato-flex">
         <section>
             <h1>Contato</h1>  
-            <form action="">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                
                 <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
                 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
         
                 <label for="Telefone">Telefone:</label >
-                <input type="tel" name="telefone" id="telefone">
+                <input type="tel" name="telefone" id="telefone" required>
         
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" cols="50" rows="5" required></textarea>
                  
                 <button type="submit">Enviar</button>
+                <input type="hidden" name="accessKey" value="e2371ea0-8542-4cbd-81f1-480f368a50d4">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
                 <button id="apagar" type="reset">Apagar</button>
+
+                
         </section>
     </main>
 

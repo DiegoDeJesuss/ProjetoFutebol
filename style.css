@@ -312,6 +312,44 @@ footer{
 
 } */
 
+.body-obrigado{
+    background-image: url(img/campo.jpg);
+    background-position: right 0px bottom 5px;
+    background-repeat: no-repeat;
+}
+
+.obrigado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    
+    
+    flex-direction: column; 
+}
+
+.obrigado p{
+    font-size: 2rem;
+}
+
+.obrigado h1{
+    font-size: 4.5rem;
+}
+
+.home-obrigado{
+    padding: 8px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -363,8 +401,16 @@ footer{
         }
 
         
+    }
 
-    
+
+    @media (max-width: 700px) {
+        .obrigado h1{
+            font-size: 2rem;
+
+        }& p{
+            font-size: 1.5rem;
+        }
     }
 
 
