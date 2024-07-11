@@ -197,6 +197,7 @@ form input{
     border-radius: 2px;
     border-style: solid;
     height: 30px;
+    width: 400px;
 }
 form label{
 
@@ -220,8 +221,6 @@ form textarea{
 #apagar{
     font-size: 14px;
 }
-
-
 
 
 
@@ -297,6 +296,7 @@ article.sobre .flex{
 
 footer{
     background-color: white;
+    width: 100%;
    
 }
 
@@ -359,6 +359,7 @@ footer{
         
         body{
             background-color: #00022F;
+            margin-right: 0;
         }    
 
         .Logo-contato{
@@ -400,6 +401,11 @@ footer{
             width: 280px;
         }
 
+
+        form input{
+            width: 280px;
+        }
+
         
     }
 
@@ -409,7 +415,8 @@ footer{
             font-size: 2rem;
 
         }& p{
-            font-size: 1.5rem;
+            font-size: 1rem;
+            text-align: center;
         }
     }
 

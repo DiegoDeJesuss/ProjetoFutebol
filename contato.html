@@ -9,26 +9,28 @@
     <title>Document</title>
 </head>
 <body>
-    <header  class="navbar fixed-top">
-       
-        <a class="home" href="./index.html"><img  class="nome_jogador" src="img/Logo_Brasil.jpg" alt=""> HOME</a>
-        <!-- <h2 class="nome_jogador">Ronaldo</h2> -->
-        <!-- margin-right: auto; -->
-        
-        <nav>
-            
-            <ul class="nav_menu">
-                <li><a href="./jogadores.html">JOGADORES</li></a>
-                <li><a href="">GALERIA</li></a>
-                <li><a href="index.html#sobre">SOBRE</li></a>
-            </ul>
-        </nav>
-        <a href="./contato.html"><button class="btn-contato">CONTATO</button></a>
-    </header>
-    <div class="Logo Logo-contato">
-        <img src ="Logo.png" alt="Logo seleção">  
-    </div>
+  <header class="navbar fixed-top navbar-expand-md" >
 
+    <a class="home" href="index.html"><img class="nome_jogador" src="img/Logo_Brasil.jpg" alt=""> HOME</a>
+    <!-- <h2 class="nome_jogador">Ronaldo</h2> -->
+    <!-- margin-right: auto; -->
+
+    <button class="navbar-toggler" style="background-color: rgba(34, 203, 245, 0.822);"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav_menu navbar-nav me-auto mb-2 mb-lg-0">
+            <li><a href="./jogadores.html">JOGADORES</li></a>
+            <li><a href="">GALERIA</li></a>
+            <li><a href="index.html#sobre">SOBRE</li></a>
+        </ul>
+    </nav>
+    <a   href="#"><button class="collapse navbar-collapse" id="navbarSupportedContent">CONTATO</button></a>
+</header>
+<div class="Logo">
+    <img src="Logo.png" alt="Logo seleção">
+</div>
     <!-- margin-left: 20px; -->
 
     <main class="contato-flex">
@@ -47,11 +49,12 @@
         
                 <label for="message">Mensagem:</label>
                 <textarea name="message" id="message" cols="50" rows="5" required></textarea>
-                 
-                <button type="submit">Enviar</button>
+                <div class="flex">
+                  <button type="submit">Enviar</button>
+                  <button id="apagar" type="reset">Apagar</button>
+                </div> 
                 <input type="hidden" name="accessKey" value="e2371ea0-8542-4cbd-81f1-480f368a50d4">
                 <input type="hidden" name="redirectTo" value="https://projetofutebol.onrender.com/obrigado.html">
-                <button id="apagar" type="reset">Apagar</button>
 
                 
         </section>
